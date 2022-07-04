@@ -1,5 +1,33 @@
 body {
   background-color: #f0eff4;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #070707;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+figcaption,
+h2,
+span,
+main p {
+  color: white;
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 figure {
@@ -13,4 +41,34 @@ figure img {
   height: 65%;
   max-width: 800px;
   min-width: 400px;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-style: italic;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li p {
+  margin-top: 5px;
+}
+
+.timeline-section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.timeline-year {
+  margin-top: -4px;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
